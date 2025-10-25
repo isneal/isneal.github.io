@@ -20,14 +20,33 @@ icon = "home"
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/chuankepang"
+weight = -90
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "blog"
+name = "Blog"
+url = "https://isneal.github.io/"
+weight = -80
 
 [social.params]
-icon = "brand-twitter"
+icon = "note"
+
+[[social]]
+identifier = "wechat"
+name = "Wechat"
+url = "assets/img/avatar.png"
+weight = 0
+
+[social.params]
+icon = "book"
+
+#[[social]]
+#identifier = "twitter"
+#name = "Twitter"
+#url = "https://twitter.com"
+
+#[social.params]
+#icon = "brand-twitter"

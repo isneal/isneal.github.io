@@ -8,6 +8,14 @@
 #newtab = true
 
 [[social]]
+identifier = "Home"
+name = "Home"
+url = "https://chuankepang.github.io/"
+
+[social.params]
+icon = "brand-home"
+
+[[social]]
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/chuankepang"

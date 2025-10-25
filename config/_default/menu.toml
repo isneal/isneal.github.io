@@ -11,6 +11,7 @@
 identifier = "home"
 name = "Home"
 url = "https://chuankepang.github.io/"
+weight = -100
 
 [social.params]
 icon = "home"

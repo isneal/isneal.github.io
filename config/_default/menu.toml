@@ -8,7 +8,7 @@
 #newtab = true
 
 [[social]]
-identifier = "Home"
+identifier = "home"
 name = "Home"
 url = "https://chuankepang.github.io/"
 

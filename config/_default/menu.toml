@@ -13,7 +13,7 @@ name = "Home"
 url = "https://chuankepang.github.io/"
 
 [social.params]
-icon = "brand-home"
+icon = "home"
 
 [[social]]
 identifier = "github"

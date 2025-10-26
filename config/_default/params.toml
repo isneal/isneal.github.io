@@ -19,7 +19,7 @@ subtitle = "Actions drive out thoughts."
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar.png"
+src = "img/portrait.png"
 
 [article]
 headingAnchor = false

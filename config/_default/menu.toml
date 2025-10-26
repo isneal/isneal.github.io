@@ -46,7 +46,7 @@ icon = "book"
 [[social]]
 identifier = "wechat"
 name = "Wechat"
-url = "assets/img/Wechat.png"
+url = "https://github.com/isneal/isneal.github.io/blob/master/assets/img/Wechat.png"
 weight = 0
 
 [social.params]

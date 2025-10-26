@@ -17,10 +17,19 @@ weight = -100
 icon = "home"
 
 [[social]]
+identifier = "mail"
+name = "Mail"
+url = "mailto:chuankepang@buaa.edu.cn"
+weight = -90
+
+[social.params]
+icon = "mail"
+
+[[social]]
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/chuankepang"
-weight = -90
+weight = -80
 
 [social.params]
 icon = "brand-github"
@@ -29,10 +38,10 @@ icon = "brand-github"
 identifier = "blog"
 name = "Blog"
 url = "https://isneal.github.io/"
-weight = -80
+weight = -70
 
 [social.params]
-icon = "note"
+icon = "book"
 
 [[social]]
 identifier = "wechat"

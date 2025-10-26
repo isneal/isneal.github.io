@@ -41,7 +41,7 @@ url = "assets/img/avatar.png"
 weight = 0
 
 [social.params]
-icon = "book"
+icon = "brand-wechat"
 
 #[[social]]
 #identifier = "twitter"

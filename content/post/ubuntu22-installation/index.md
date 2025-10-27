@@ -1,7 +1,7 @@
 ---
 title: Ubuntu 22.04 Installation and Configuration
 description: Ubuntu 22.04 Workstation
-slug: ubuntu22
+slug: ubuntu22-installation
 date: 2025-10-26 00:00:00+0000
 image: cover.jpg
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Ubuntu 22.04 Installation and Configuration
-description: Ubuntu 22.04 Workstation
+description: Ubuntu 22.04 安装与配置
 slug: ubuntu22-installation
 date: 2025-10-26 00:00:00+0000
-image: cover.jpg
+image:
 categories:
     - Tutorial
 tags:

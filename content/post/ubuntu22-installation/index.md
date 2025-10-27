@@ -18,7 +18,7 @@ weight:       # You can add weight to some posts to override the default sorting
 1. [清华镜像网站](https://mirrors.tuna.tsinghua.edu.cn/)下载ubuntu-22.04.4-desktop-amd64.iso
 2. [Rufus](https://rufus.ie/zh/#google_vignette)软件制作Ubuntu启动盘
     
-    ![image.png](attachment:0176e570-3a9a-4308-a213-1746163242a7:image.png)
+    ![image.png](rufus.png)
     
 3. 磁盘分区：磁盘管理压缩分区
 

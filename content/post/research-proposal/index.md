@@ -1,7 +1,7 @@
 ---
 title: Research Proposal
 description: 研究方向调研
-slug: Compliance
+slug: research-proposal
 date: 2025-11-02 12:00:00+0800
 image:
 categories:

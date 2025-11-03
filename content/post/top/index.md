@@ -3,7 +3,7 @@ title: Stop being patient and start asking yourself, how do I accomplish my 10 y
 description: You will probably fail but you will be a lot further ahead of the person who simply accepted it was going to take 10 years.
 slug: top
 date: 2025-11-03 00:00:00+0800
-image:
+image: mission_feature.webp
 categories:
     - Research
 tags:

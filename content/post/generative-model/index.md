@@ -12,7 +12,7 @@ math: true
 weight:       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-## 高斯混合模型，GMM，Gaussian Mixture Module
+## 高斯混合模型，GMM
 
 ### 定位
 

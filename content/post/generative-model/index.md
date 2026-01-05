@@ -12,13 +12,13 @@ math: true
 weight:       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-# 高斯混合模型，GMM，Gaussian Mixture Module
+## 高斯混合模型，GMM，Gaussian Mixture Module
 
-## 定位
+### 定位
 
 高斯混合模型 (GMM) 是一种概率模型，它将数据表示为多个高斯分布的组合，每个高斯分布都有自己的均值和方差，由混合系数加权。GMM 常用于聚类和密度估计，因为它们能够捕捉复杂的多峰分布，其中数据点可能自然地围绕不同中心聚集，而不是单一均值。
 
-## 概率论基础
+### 概率论基础
 
 1. 高斯分布
 
@@ -45,4 +45,4 @@ $$
 4. 标准差
 5. 协方差
 
-## 高斯混合模型
+### 高斯混合模型

@@ -8,6 +8,7 @@ categories:
     - Research
 tags:
     - algorithm
+math: true
 weight:       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

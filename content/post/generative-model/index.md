@@ -33,13 +33,15 @@ $$
 f(x)=\frac{1}{{\sigma}\sqrt{2\pi}}exp(-\frac{(x-\mu)^2}{2{\sigma}^2})=\frac{1}{{\sigma}\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2{\sigma}^2}}
 $$
 
-![Normal_Distribution_PDF.svg](Normal_Distribution_PDF.svg)
+<p align="center">
+  <img src="Normal_Distribution_PDF.svg" width="400">
+</p>
 
 概率密度如图所示。横轴表示变量$x$，纵轴表示概率密度函数。数学期望$\mu$决定了分布的位置，$\sigma$决定了分布的幅度。均值$\mu=0$，标准差$\sigma=1$的正态分布为标准正态分布。随机变量的取值落在某个区域内的概率为概率密度函数在这个区域上的积分。
 
-1. 期望
-2. 方差
-3. 标准差
-4. 协方差
+2. 期望
+3. 方差
+4. 标准差
+5. 协方差
 
 ## 高斯混合模型

@@ -33,7 +33,7 @@ $$
 f(x)=\frac{1}{{\sigma}\sqrt{2\pi}}exp(-\frac{(x-\mu)^2}{2{\sigma}^2})=\frac{1}{{\sigma}\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2{\sigma}^2}}
 $$
 
-![Normal_Distribution_PDF.svg](attachment:a8fd1963-8ae9-40bd-9261-abda63ea9675:Normal_Distribution_PDF.svg)
+![Normal_Distribution_PDF.svg](Normal_Distribution_PDF.svg)
 
 概率密度如图所示。横轴表示变量$x$，纵轴表示概率密度函数。数学期望$\mu$决定了分布的位置，$\sigma$决定了分布的幅度。均值$\mu=0$，标准差$\sigma=1$的正态分布为标准正态分布。随机变量的取值落在某个区域内的概率为概率密度函数在这个区域上的积分。
 

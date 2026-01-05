@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on Neal</title><link>https://isneal.github.io/categories/research/</link><description>Recent content in Research on Neal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Jan 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://isneal.github.io/categories/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Stop being patient and start asking yourself, how do I accomplish my 10 year plan in 6 months?</title><link>https://isneal.github.io/p/top/</link><pubDate>Mon, 03 Nov 2025 00:00:00 +0800</pubDate><guid>https://isneal.github.io/p/top/</guid><description>&lt;img src="https://isneal.github.io/p/top/mission_feature.webp" alt="Featured image of post Stop being patient and start asking yourself, how do I accomplish my 10 year plan in 6 months?" /&gt;</description></item><item><title>Summary of Generative Models</title><link>https://isneal.github.io/p/gm/</link><pubDate>Mon, 05 Jan 2026 12:00:00 +0800</pubDate><guid>https://isneal.github.io/p/gm/</guid><description>&lt;h2 id="高斯混合模型gmm"&gt;高斯混合模型，GMM
+&lt;/h2&gt;&lt;h3 id="定位"&gt;定位
+&lt;/h3&gt;&lt;p&gt;高斯混合模型 (GMM) 是一种概率模型，它将数据表示为多个高斯分布的组合，每个高斯分布都有自己的均值和方差，由混合系数加权。GMM 常用于聚类和密度估计，因为它们能够捕捉复杂的多峰分布，其中数据点可能自然地围绕不同中心聚集，而不是单一均值。&lt;/p&gt;
+&lt;h3 id="概率论基础"&gt;概率论基础
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;高斯分布&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;概率密度是描述连续型随机变量分布特征的函数，表示随机变量在某点附近单位区间内取值的可能性大小。定义随机变量$X$服从数学期望$\mu$、方差为${\sigma}^2$的高斯分布，记为：&lt;/p&gt;
+$$
+X\sim N(\mu,{\sigma}^2)
+$$&lt;p&gt;则其概率密度为：&lt;/p&gt;
+$$
+f(x)=\frac{1}{{\sigma}\sqrt{2\pi}}exp(-\frac{(x-\mu)^2}{2{\sigma}^2})=\frac{1}{{\sigma}\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2{\sigma}^2}}
+$$&lt;p align="center"&gt;
+&lt;img src="Normal_Distribution_PDF.svg" width="400"&gt;
+&lt;/p&gt;
+&lt;p&gt;概率密度如图所示。横轴表示变量$x$，纵轴表示概率密度函数。数学期望$\mu$决定了分布的位置，$\sigma$决定了分布的幅度。均值$\mu=0$，标准差$\sigma=1$的正态分布为标准正态分布。随机变量的取值落在某个区域内的概率为概率密度函数在这个区域上的积分。&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;期望&lt;/li&gt;
+&lt;li&gt;方差&lt;/li&gt;
+&lt;li&gt;标准差&lt;/li&gt;
+&lt;li&gt;协方差&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="高斯混合模型"&gt;高斯混合模型
+&lt;/h3&gt;</description></item><item><title>Lost in the Labyrinth, Navigating PhD Directionlessness</title><link>https://isneal.github.io/p/phd-direction/</link><pubDate>Thu, 06 Nov 2025 12:00:00 +0800</pubDate><guid>https://isneal.github.io/p/phd-direction/</guid><description>&lt;p&gt;记录探索研究方向的迷茫与纠结&lt;/p&gt;
+&lt;p&gt;后遗症｜综述广而杂，缺少研究空白和科学问题的总结&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&amp;gt; 复现经典框架&lt;/p&gt;</description></item><item><title>Compliance Control for Robot Manipulation</title><link>https://isneal.github.io/p/compliance/</link><pubDate>Sun, 02 Nov 2025 12:00:00 +0800</pubDate><guid>https://isneal.github.io/p/compliance/</guid><description>&lt;h2 id="impedance-control"&gt;Impedance Control
+&lt;/h2&gt;&lt;h2 id="admittance-control"&gt;Admittance Control
+&lt;/h2&gt;</description></item><item><title>Research Proposal</title><link>https://isneal.github.io/p/research-proposal/</link><pubDate>Sun, 02 Nov 2025 12:00:00 +0800</pubDate><guid>https://isneal.github.io/p/research-proposal/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;Huazhe Xu 开组会讨论内容&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="robot-learning方法-通用框架和基本方法"&gt;robot learning方法 通用框架和基本方法
+&lt;/h2&gt;&lt;p&gt;IL,&lt;/p&gt;
+&lt;p&gt;RL,&lt;/p&gt;
+&lt;p&gt;IL+RL&lt;/p&gt;
+&lt;p&gt;sim2real&lt;/p&gt;
+&lt;h2 id="研究重点对比"&gt;研究重点对比
+&lt;/h2&gt;&lt;h2 id="科学问题"&gt;科学问题
+&lt;/h2&gt;&lt;p&gt;双臂协作？&lt;/p&gt;
+&lt;p&gt;人与机器人协作？&lt;/p&gt;
+&lt;p&gt;本体视觉感知+全身控制&lt;/p&gt;
+&lt;h2 id="技术路线"&gt;技术路线
+&lt;/h2&gt;&lt;h3 id="bimanual-manipulation"&gt;Bimanual Manipulation
+&lt;/h3&gt;&lt;p&gt;Diffusion Policy&lt;/p&gt;
+&lt;p&gt;LfD&lt;/p&gt;
+&lt;p&gt;VLA (LBM | RDT) | 综述&lt;/p&gt;
+&lt;p&gt;World Model | 综述&lt;/p&gt;
+&lt;p&gt;HIL-SERL (RL)&lt;/p&gt;
+&lt;h3 id="low-cost"&gt;Low-Cost
+&lt;/h3&gt;&lt;p&gt;Hardware Software Control Framework&lt;/p&gt;
+&lt;p&gt;Mobile Manipulation&lt;/p&gt;
+&lt;p&gt;研究重点在哪？&lt;/p&gt;
+&lt;h3 id="legged"&gt;Legged
+&lt;/h3&gt;&lt;p&gt;ABS&lt;/p&gt;
+&lt;p&gt;OCS2&lt;/p&gt;
+&lt;p&gt;robot_lab&lt;/p&gt;
+&lt;p&gt;rl_sar&lt;/p&gt;
+&lt;h3 id="humanoid"&gt;Humanoid
+&lt;/h3&gt;&lt;p&gt;robot_lab&lt;/p&gt;
+&lt;p&gt;iDP3&lt;/p&gt;
+&lt;p&gt;OKAMI&lt;/p&gt;
+&lt;p&gt;loco-manipulation&lt;/p&gt;
+&lt;p&gt;vision-based&lt;/p&gt;
+&lt;h2 id="isaac-lab-例程"&gt;Isaac Lab 例程
+&lt;/h2&gt;&lt;h2 id="ama"&gt;AMA
+&lt;/h2&gt;&lt;p&gt;Tianxing, Yitang, Guanya, Huazhe&lt;/p&gt;</description></item><item><title>Diffusion Policy for Robot Manipulation</title><link>https://isneal.github.io/p/dp/</link><pubDate>Wed, 29 Oct 2025 12:00:00 +0800</pubDate><guid>https://isneal.github.io/p/dp/</guid><description>&lt;h2 id="大模型多模态信息融合的方法"&gt;大模型多模态信息融合的方法
+&lt;/h2&gt;&lt;h3 id="cnn-based发源自视觉推理视觉问答"&gt;CNN-based（发源自视觉推理/视觉问答）
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;问题&lt;/p&gt;
+&lt;p&gt;实现文本条件下的图像输出&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;方法&lt;/p&gt;
+&lt;p&gt;FiLM (Feature-wise Linear Modulation)&lt;/p&gt;
+&lt;p&gt;条件编码器（文本、图像等）经过FIlM，产生仿射变换的参数。仿射变换的参数在每个resnet的block中都可以加入，相当于做了一次 attention，可以理解为拿文本信息去attention视觉的内容，而且是从每级的feature上面都是如此。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="transformer-based"&gt;Transformer-based
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;常规方法&lt;/p&gt;
+&lt;p&gt;Transformer架构：文本作为值多头注意到图像上&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CLIP&lt;/p&gt;
+&lt;p&gt;图像条件下的文本（类别）输出&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="创新点立足点贡献"&gt;创新点/立足点/贡献
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;闭环动作生成？？预测与执行的关系+优化推理速度，何为闭环？？&lt;/li&gt;
+&lt;li&gt;状态动作条件概率分布 | 联合分布——条件分布&lt;/li&gt;
+&lt;li&gt;transformer架构的diffusion policy | cnn diffusion —— transformer diffusion&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="前序工作"&gt;前序工作
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;CNN-based diffusion model for planning&lt;/p&gt;
+&lt;p&gt;Planning with Diffusion for Flexible Behavior Synthesis&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://jannerm.github.io/" target="_blank" rel="noopener"
+&gt;Michael Janner&lt;/a&gt;&lt;em&gt;, &lt;a class="link" href="https://yilundu.github.io/" target="_blank" rel="noopener"
+&gt;Yilun Du&lt;/a&gt;&lt;/em&gt;, &lt;a class="link" href="https://cocosci.mit.edu/josh" target="_blank" rel="noopener"
+&gt;Joshua Tenenbaum&lt;/a&gt;, and &lt;a class="link" href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank" rel="noopener"
+&gt;Sergey Levine&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Behavior transformer w/o diffusion&lt;/p&gt;
+&lt;p&gt;Behavior Transformers: Cloning k modes with one stone&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://mahis.life/" target="_blank" rel="noopener"
+&gt;Nur Muhammad (Mahi) Shafiullah,&lt;/a&gt; &lt;a class="link" href="https://jeffcui.com/" target="_blank" rel="noopener"
+&gt;Zichen Jeff Cui,&lt;/a&gt; &lt;a class="link" href="https://artys.page/" target="_blank" rel="noopener"
+&gt;Ariuntaya Altanzaya,&lt;/a&gt; &lt;a class="link" href="https://lerrelpinto.com/" target="_blank" rel="noopener"
+&gt;Lerrel Pinto&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;引申学习&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://arxiv.org/pdf/1706.03762" target="_blank" rel="noopener"
+&gt;Attention Is All You Need 2017&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://arxiv.org/pdf/2010.11929" target="_blank" rel="noopener"
+&gt;ViT 2020&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Diffusion Model &lt;a class="link" href="https://arxiv.org/pdf/1503.03585" target="_blank" rel="noopener"
+&gt;[1-2015]&lt;/a&gt; &lt;a class="link" href="https://arxiv.org/pdf/1907.05600" target="_blank" rel="noopener"
+&gt;[2-2019]&lt;/a&gt; &lt;a class="link" href="https://arxiv.org/pdf/2006.11239" target="_blank" rel="noopener"
+&gt;[3-DDPM-2020]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://arxiv.org/pdf/2212.09748" target="_blank" rel="noopener"
+&gt;Diffusion Transformer 2023&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://arxiv.org/pdf/2410.07864" target="_blank" rel="noopener"
+&gt;RDT 2024&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://arxiv.org/pdf/2304.13705" target="_blank" rel="noopener"
+&gt;ACT 2023&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Flow Matching &lt;a class="link" href="https://arxiv.org/pdf/2409.01083v1" target="_blank" rel="noopener"
+&gt;[1-2024]&lt;/a&gt; &lt;a class="link" href="https://arxiv.org/pdf/2410.24164" target="_blank" rel="noopener"
+&gt;[2-pi0-2024]&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

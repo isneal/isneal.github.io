@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithm on Neal</title><link>https://isneal.github.io/tags/algorithm/</link><description>Recent content in Algorithm on Neal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Jan 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://isneal.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml"/><item><title>Summary of Generative Models</title><link>https://isneal.github.io/p/gm/</link><pubDate>Mon, 05 Jan 2026 12:00:00 +0800</pubDate><guid>https://isneal.github.io/p/gm/</guid><description>&lt;h2 id="高斯混合模型gmm"&gt;高斯混合模型，GMM
+&lt;/h2&gt;&lt;h3 id="定位"&gt;定位
+&lt;/h3&gt;&lt;p&gt;高斯混合模型 (GMM) 是一种概率模型，它将数据表示为多个高斯分布的组合，每个高斯分布都有自己的均值和方差，由混合系数加权。GMM 常用于聚类和密度估计，因为它们能够捕捉复杂的多峰分布，其中数据点可能自然地围绕不同中心聚集，而不是单一均值。&lt;/p&gt;
+&lt;h3 id="概率论基础"&gt;概率论基础
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;高斯分布&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;概率密度是描述连续型随机变量分布特征的函数，表示随机变量在某点附近单位区间内取值的可能性大小。定义随机变量$X$服从数学期望$\mu$、方差为${\sigma}^2$的高斯分布，记为：&lt;/p&gt;
+$$
+X\sim N(\mu,{\sigma}^2)
+$$&lt;p&gt;则其概率密度为：&lt;/p&gt;
+$$
+f(x)=\frac{1}{{\sigma}\sqrt{2\pi}}exp(-\frac{(x-\mu)^2}{2{\sigma}^2})=\frac{1}{{\sigma}\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2{\sigma}^2}}
+$$&lt;p align="center"&gt;
+&lt;img src="Normal_Distribution_PDF.svg" width="400"&gt;
+&lt;/p&gt;
+&lt;p&gt;概率密度如图所示。横轴表示变量$x$，纵轴表示概率密度函数。数学期望$\mu$决定了分布的位置，$\sigma$决定了分布的幅度。均值$\mu=0$，标准差$\sigma=1$的正态分布为标准正态分布。随机变量的取值落在某个区域内的概率为概率密度函数在这个区域上的积分。&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;期望&lt;/li&gt;
+&lt;li&gt;方差&lt;/li&gt;
+&lt;li&gt;标准差&lt;/li&gt;
+&lt;li&gt;协方差&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="高斯混合模型"&gt;高斯混合模型
+&lt;/h3&gt;</description></item></channel></rss>

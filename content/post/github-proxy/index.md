@@ -1,7 +1,7 @@
 ---
 title: Github Proxy | gh-proxy
 description: Github 代理
-slug: git-proxy
+slug: gitproxy
 date: 2026-06-04 12:00:00+0800
 image:
 categories:

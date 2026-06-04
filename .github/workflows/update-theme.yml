@@ -1,5 +1,9 @@
 name: Update theme
 
+# 添加这一段，强制使用 Node 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # Controls when the workflow will run
 on:
   schedule:

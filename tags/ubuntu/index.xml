@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu on Neal</title><link>https://isneal.github.io/tags/ubuntu/</link><description>Recent content in Ubuntu on Neal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 26 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://isneal.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu 22.04 Installation and Configuration</title><link>https://isneal.github.io/p/ubuntu22-installation/</link><pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate><guid>https://isneal.github.io/p/ubuntu22-installation/</guid><description>&lt;h2 id="一安装ubuntu系统"&gt;一、安装Ubuntu系统
+&lt;/h2&gt;&lt;h3 id="11-制作启动u盘"&gt;1.1 制作启动U盘
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener"
+&gt;清华镜像网站&lt;/a&gt;下载ubuntu-22.04.4-desktop-amd64.iso&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://rufus.ie/zh/#google_vignette" target="_blank" rel="noopener"
+&gt;Rufus&lt;/a&gt;软件制作Ubuntu启动盘&lt;/p&gt;
+&lt;img src="rufus.png" width="250" alt="Rufus 制作启动盘界面"&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;磁盘分区：磁盘管理压缩分区&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="12-分区配置"&gt;1.2 分区配置
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;分区&lt;/th&gt;
+&lt;th&gt;大小 (MB)&lt;/th&gt;
+&lt;th&gt;分区类型&lt;/th&gt;
+&lt;th&gt;文件系统&lt;/th&gt;
+&lt;th&gt;挂载点&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;/dev/sda1&lt;/td&gt;
+&lt;td&gt;2,000&lt;/td&gt;
+&lt;td&gt;主分区&lt;/td&gt;
+&lt;td&gt;FAT32&lt;/td&gt;
+&lt;td&gt;/boot/efi&lt;/td&gt;
+&lt;td&gt;EFI 系统分区，存储 UEFI 启动文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/dev/sda2&lt;/td&gt;
+&lt;td&gt;2,000&lt;/td&gt;
+&lt;td&gt;主分区&lt;/td&gt;
+&lt;td&gt;ext4&lt;/td&gt;
+&lt;td&gt;/boot&lt;/td&gt;
+&lt;td&gt;存储内核和启动文件，独立分区便于维护&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/dev/sda3&lt;/td&gt;
+&lt;td&gt;32,000&lt;/td&gt;
+&lt;td&gt;主分区&lt;/td&gt;
+&lt;td&gt;swap&lt;/td&gt;
+&lt;td&gt;swap&lt;/td&gt;
+&lt;td&gt;交换分区，支持 32GB 内存休眠&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/dev/sda4&lt;/td&gt;
+&lt;td&gt;256,000&lt;/td&gt;
+&lt;td&gt;主分区&lt;/td&gt;
+&lt;td&gt;ext4&lt;/td&gt;
+&lt;td&gt;/&lt;/td&gt;
+&lt;td&gt;根目录，存储系统文件和软件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/dev/sda5&lt;/td&gt;
+&lt;td&gt;708,000&lt;/td&gt;
+&lt;td&gt;逻辑分区&lt;/td&gt;
+&lt;td&gt;ext4&lt;/td&gt;
+&lt;td&gt;/home&lt;/td&gt;
+&lt;td&gt;用户数据分区，占用剩余空间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="二黑屏问题解决"&gt;二、黑屏问题解决
+&lt;/h2&gt;&lt;h3 id="21-安装之前黑屏"&gt;2.1 安装之前黑屏
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;安装时，先选择&amp;quot; try or install ubuntu&amp;quot;, 此时不要按enter，按&amp;quot;e&amp;quot;进入编辑模式；&lt;/li&gt;
+&lt;li&gt;进入命令行模式, 找到 quiet splash，用nomodeset替换“- - -”，然后按F10启动系统，就可以进入桌面了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="安装完成重启之后黑屏"&gt;安装完成重启之后黑屏
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;重启电脑；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择&amp;quot;Advanced options for Ubuntu&amp;quot;打开Ubuntu的高级选项；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择&amp;quot;recovery mode&amp;quot;恢复模式进入；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择&amp;quot;Drop to root shell prompt&amp;quot;，打开root shell 命令行页面；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;命令行中输入&amp;quot;sudo vi /etc/default/grub&amp;quot;修改grub文件；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;修改grub文件内容；&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1.输入i进入编辑模式，通过键盘的上下左右按键来移动光标，再编辑文本。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2.将GRUB_CMDLINE_LINUX_DEFAULT&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;quiet splash&amp;#34;&lt;/span&gt;&lt;span class="nv"&gt;修改为GRUB_CMDLINE_LINUX_DEFAULT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;quiet splash nomodeset&amp;#34;&lt;/span&gt;。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3.点击Esc退出编辑模式，再输入:wq保存grub文件。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更新文件并重启；&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1.先sudo update-grub更新引导程序的配置。
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2.再执行reboot重启Ubuntu。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等待重启，即可成功进入Ubuntu。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="三显卡驱动安装"&gt;三、显卡驱动安装
+&lt;/h2&gt;&lt;h2 id="四wifi驱动安装"&gt;四、WIFI驱动安装
+&lt;/h2&gt;&lt;h2 id="五软件安装"&gt;五、软件安装
+&lt;/h2&gt;&lt;h3 id="输入法配置"&gt;输入法配置
+&lt;/h3&gt;&lt;h2 id="六ros2-安装"&gt;六、ROS2 安装
+&lt;/h2&gt;&lt;h2 id="七cudapytorchconda安装"&gt;七、CUDA、Pytorch、conda安装
+&lt;/h2&gt;&lt;h2 id="八isaac-sim安装"&gt;八、Isaac Sim安装
+&lt;/h2&gt;&lt;h2 id="九isaac-lab安装"&gt;九、Isaac Lab安装
+&lt;/h2&gt;</description></item></channel></rss>

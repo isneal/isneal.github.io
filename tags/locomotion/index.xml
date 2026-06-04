@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Locomotion on Neal</title><link>https://isneal.github.io/tags/locomotion/</link><description>Recent content in Locomotion on Neal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 02 Nov 2025 12:00:00 +0800</lastBuildDate><atom:link href="https://isneal.github.io/tags/locomotion/index.xml" rel="self" type="application/rss+xml"/><item><title>Research Proposal</title><link>https://isneal.github.io/p/research-proposal/</link><pubDate>Sun, 02 Nov 2025 12:00:00 +0800</pubDate><guid>https://isneal.github.io/p/research-proposal/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;Huazhe Xu 开组会讨论内容&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="robot-learning方法-通用框架和基本方法"&gt;robot learning方法 通用框架和基本方法
+&lt;/h2&gt;&lt;p&gt;IL,&lt;/p&gt;
+&lt;p&gt;RL,&lt;/p&gt;
+&lt;p&gt;IL+RL&lt;/p&gt;
+&lt;p&gt;sim2real&lt;/p&gt;
+&lt;h2 id="研究重点对比"&gt;研究重点对比
+&lt;/h2&gt;&lt;h2 id="科学问题"&gt;科学问题
+&lt;/h2&gt;&lt;p&gt;双臂协作？&lt;/p&gt;
+&lt;p&gt;人与机器人协作？&lt;/p&gt;
+&lt;p&gt;本体视觉感知+全身控制&lt;/p&gt;
+&lt;h2 id="技术路线"&gt;技术路线
+&lt;/h2&gt;&lt;h3 id="bimanual-manipulation"&gt;Bimanual Manipulation
+&lt;/h3&gt;&lt;p&gt;Diffusion Policy&lt;/p&gt;
+&lt;p&gt;LfD&lt;/p&gt;
+&lt;p&gt;VLA (LBM | RDT) | 综述&lt;/p&gt;
+&lt;p&gt;World Model | 综述&lt;/p&gt;
+&lt;p&gt;HIL-SERL (RL)&lt;/p&gt;
+&lt;h3 id="low-cost"&gt;Low-Cost
+&lt;/h3&gt;&lt;p&gt;Hardware Software Control Framework&lt;/p&gt;
+&lt;p&gt;Mobile Manipulation&lt;/p&gt;
+&lt;p&gt;研究重点在哪？&lt;/p&gt;
+&lt;h3 id="legged"&gt;Legged
+&lt;/h3&gt;&lt;p&gt;ABS&lt;/p&gt;
+&lt;p&gt;OCS2&lt;/p&gt;
+&lt;p&gt;robot_lab&lt;/p&gt;
+&lt;p&gt;rl_sar&lt;/p&gt;
+&lt;h3 id="humanoid"&gt;Humanoid
+&lt;/h3&gt;&lt;p&gt;robot_lab&lt;/p&gt;
+&lt;p&gt;iDP3&lt;/p&gt;
+&lt;p&gt;OKAMI&lt;/p&gt;
+&lt;p&gt;loco-manipulation&lt;/p&gt;
+&lt;p&gt;vision-based&lt;/p&gt;
+&lt;h2 id="isaac-lab-例程"&gt;Isaac Lab 例程
+&lt;/h2&gt;&lt;h2 id="ama"&gt;AMA
+&lt;/h2&gt;&lt;p&gt;Tianxing, Yitang, Guanya, Huazhe&lt;/p&gt;</description></item></channel></rss>
